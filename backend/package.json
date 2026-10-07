@@ -1,0 +1,29 @@
+{
+  "name": "zk-attendance-backend",
+  "version": "1.0.0",
+  "description": "ZKTeco MB2000 Time Attendance API Backend",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "zkteco",
+    "mb2000",
+    "attendance",
+    "biometrics",
+    "express",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "node-cron": "^4.6.0",
+    "node-zklib": "^1.3.0"
+  }
+}
